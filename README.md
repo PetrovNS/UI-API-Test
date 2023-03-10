@@ -1,1 +1,6 @@
-# UI-API-Test
+## Site: https://vk.com/
+<div id="test" align="center">
+	<h3>Test scenario</h3>
+  <h5>To run the test, you need to enter your login, password, user id and access token in TestData.json</h5>
+</div>
+<li><strong>[UI]</strong> Go to the <a href="https://vk.com/" class="external-link" rel="nofollow">https://vk.com/</a> webpage.</li><li><strong>[UI]</strong> Authorize.</li><li><strong>[UI]</strong> Go to "My profile".</li><li><strong>[API] </strong>Create post on the wall with randomly generated text using API-request and save id of the post from the API-response.</li><li><strong>[UI]</strong> Check that post with the sent text from the correct user appeared on the wall without refreshing the page.</li><li><strong>[API] </strong>Edit the added post using API-request - change text and add (upload) a picture.</li><li><strong>[UI]</strong> Check that text was updated and the picture was uploaded (make sure that pictures are the same) without refreshing the page.</li><li><strong>[API] </strong>Add a comment to the post with the randomly generated text using API-request.</li><li><strong>[UI]</strong> Check that comment from the correct user was added to the post without refreshing the page.</li><li><strong>[UI]</strong> Like the post using UI.</li><li><strong>[API] </strong>Check that the post received like from the correct user using API-request.</li><li><strong>[API] </strong>Delete the post using API-request.</li><li><strong>[UI]</strong> Check that the post was deleted without refreshing the page</li>
