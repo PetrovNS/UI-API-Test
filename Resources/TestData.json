@@ -1,0 +1,7 @@
+{
+  "mainPageUrl": "https://vk.com/",
+  "login": "Test",
+  "password": "test123",
+  "userId": 123456,
+  "access_token": "token"
+}

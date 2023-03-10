@@ -1,0 +1,11 @@
+{
+  "mainAPIUrl": "https://api.vk.com/",
+  "makeNewPostOnTheWall": "method/wall.post?user_id={0}&message={1}&access_token={2}&v=5.81",
+  "getWallUploadServer": "method/photos.getWallUploadServer?group_id={0}&access_token={1}&v=5.81",
+  "saveUploadWallPhoto": "method/photos.saveWallPhoto?group_id={0}&photo={1}&server={2}&hash={3}&access_token={4}&v=5.81",
+  "editPostOnTheWall": "method/wall.edit?user_id={0}&post_id={1}&message={2}&attachments=photo{3}_{4}&access_token={5}&v=5.81",
+  "createCommentToThePost": "method/wall.createComment?user_id={0}&post_id={1}&message={2}&access_token={3}&v=5.81",
+  "postIsLiked": "method/likes.isLiked?user_id={0}&type=post&item_id={1}&access_token={2}&v=5.81",
+  "getListUsersWhoLikes": "method/likes.getList?type=post&owner_id={0}&item_id={1}&&access_token={2}&v=5.81",
+  "deletePostFromTheWall": "method/wall.delete?&owner_id={0}&post_id={1}&&access_token={2}&v=5.81"
+}
